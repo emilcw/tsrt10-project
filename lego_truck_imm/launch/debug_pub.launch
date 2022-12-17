@@ -1,0 +1,3 @@
+<launch>
+    <node name="lego_truck_imm_debug_pub" pkg="lego_truck_imm" type="debug_pub" output="screen"/>
+</launch>

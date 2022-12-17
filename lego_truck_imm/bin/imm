@@ -1,0 +1,13 @@
+from lego_truck_imm.imm import IMM
+import rospy
+import numpy as np
+
+if __name__ == '__main__':
+    
+    #Tuning variables
+    mu = np.array([1/3, 1/3, 1/3])
+    trans_prob_matrix = np.array([[0.96, 0.02, 0.02], [0.02, 0.96, 0.02], [0.02, 0.02, 0.96]])
+
+    #Start the IMM-filter when starting the node
+    imm = IMM(mu, trans_prob_matrix)
+    imm.run()

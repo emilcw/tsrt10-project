@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find lego_truck_imm)/launch/imm.launch"></include>
+    <include file="$(find lego_truck_imm)/launch/debug_pub.launch"></include>
+    <include file="$(find lego_truck_imm)/launch/debug_sub.launch"></include>
+</launch>

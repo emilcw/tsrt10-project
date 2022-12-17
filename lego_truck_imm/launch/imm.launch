@@ -1,0 +1,3 @@
+<launch>
+    <node name="lego_truck_imm" pkg="lego_truck_imm" type="imm" output="screen"/>
+</launch>

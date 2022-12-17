@@ -1,0 +1,4 @@
+import lego_truck_imm.debug_sub as sub
+
+if __name__ == '__main__':
+  sub.run()

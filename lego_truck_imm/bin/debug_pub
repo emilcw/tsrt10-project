@@ -1,0 +1,4 @@
+import lego_truck_imm.debug_pub as pub
+
+if __name__ == '__main__':
+  pub.run()
